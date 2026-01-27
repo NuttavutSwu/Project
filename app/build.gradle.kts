@@ -11,7 +11,7 @@ android {
     defaultConfig {
         applicationId = "com.example.a513_lablearnandroid"
         minSdk = 30
-        targetSdk = 35
+        targetSdk = 351
         versionCode = 1
         versionName = "1.0"
 
