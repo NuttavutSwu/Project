@@ -61,7 +61,7 @@ class MainActivity : ComponentActivity() {
                         }
                 )
 
-                // Define variables HERE (inside the main Column so the Row can see them)
+
                 val str = remember { mutableStateOf(8) }
                 val agi = remember { mutableStateOf(10) }
                 val intStat = remember { mutableStateOf(10) }
@@ -86,6 +86,7 @@ class MainActivity : ComponentActivity() {
                         ) {
                             Text("STR", fontSize = 24.sp, fontWeight = FontWeight.Bold)
                             Text(str.value.toString(), fontSize = 32.sp)
+
                             Button(onClick = { str.value++ }) {
                                 Text("+")
                             }
