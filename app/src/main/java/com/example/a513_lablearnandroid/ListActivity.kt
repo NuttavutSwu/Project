@@ -19,7 +19,7 @@ class ListActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             _513_LabLearnAndroidTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                Scaffold( modifier = Modifier.fillMaxSize() ) { innerPadding ->
                     Greeting(
                         name = "Android",
                         modifier = Modifier.padding(innerPadding)
