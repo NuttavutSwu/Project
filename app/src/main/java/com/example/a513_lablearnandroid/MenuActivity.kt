@@ -34,6 +34,7 @@ class MenuActivity : ComponentActivity() {
                 }) {
                     Text("LifeCycleComposeActivity")
                 }
+                 
             }
         }
     }
