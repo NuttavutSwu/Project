@@ -34,6 +34,12 @@ class MenuActivity : ComponentActivity() {
                 }) {
                     Text("LifeCycleComposeActivity")
                 }
+                Button(onClick = {
+                    startActivity(Intent(this@MenuActivity, PokedexActivity::class.java))
+                }) {
+                    Text("PokedexActivityv2")
+                }
+
                  
             }
         }
